@@ -12,7 +12,7 @@
     - Hand Pose Tracking (`server.py` line 87~103)
     - Pose Estimation (`server.py` line 116~132)
 - Record demo video with explaination
-    - 
+    - https://youtu.be/dpCrJ-UiC5U
  
 ### Install and compile gRPC-with-protobuf on Jetson nano
 ```bash

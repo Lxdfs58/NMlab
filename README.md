@@ -34,11 +34,11 @@ $ make
 $ python3 server.py
 ```
 ### On your device
-- run ffplay and stream video
+- run ffplay and stream video through RTMP protocol
 ```bash
 $ ffplay -fflags nobuffer rtmp://{Jetson IP}/rtmp/live
 ```
-- send gRPC command at 2rd terminal
+- send control signal thorugh gRPC 
 ```bash
 $ python3 client --ip {Jetson IP} --port {Jetson port}--mode {mode}
 ```

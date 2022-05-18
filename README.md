@@ -43,21 +43,9 @@ $ ffplay -fflags nobuffer rtmp://{Jetson IP}/rtmp/live
 $ python3 client --ip {Jetson IP} --port {Jetson port}--mode {mode}
 ```
 ### Different video processing algorithms
-<table>
-  <tr>
-    <th>Mode</th>
-    <th>Effect</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Hand Pose Tracking</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Object Detection</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Pose Estimation</td>
-  </tr>
-</table>
+
+| Mode |  Video Processing  |
+|:----:|:------------------:|
+|  1   | Hand Pose Tracking |
+|  2   |  Object Detection  |
+|  3   |  Pose Estimation   |

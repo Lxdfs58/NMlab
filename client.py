@@ -26,7 +26,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ip", type=str, default="localhost")
-    parser.add_argument("--port", type=int, default=8080)
-    parser.add_argument("--mode", type=int, default=10)
+    parser.add_argument("--port", type=int, default=12345)
+    parser.add_argument("--mode", type=int, default=2)
     args = vars(parser.parse_args())
     main(args)

@@ -1,5 +1,5 @@
 # NMlab Homework
-### Contributers
+### Contributors
 - B08901159 周柏融
 - B08901073 王維芯
 ### Requirement
